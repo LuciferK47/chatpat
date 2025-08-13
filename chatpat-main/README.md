@@ -50,9 +50,9 @@ Optional (production auth): Replit OIDC credentials if you’ll use the built‑
 ## Environment variables
 Create `chatpat-main/.env` (see `.env.example` for all keys):
 
-- DATABASE_URL: Postgres connection string
-- GEMINI_API_KEY or GOOGLE_AI_API_KEY: Google Gemini API key
-- SESSION_SECRET: Any strong random string
+- DATABASE_URL: already set 
+- GEMINI_API_KEY or GOOGLE_AI_API_KEY: integrated
+- SESSION_SECRET: made one
 - AUTH_MODE: set to `dev` for local development to bypass OIDC and use a built‑in dev user
 - Optional for production auth via Replit OIDC:
   - REPLIT_DOMAINS: comma‑separated list of allowed domains (e.g. `myapp.example.com`)
@@ -128,7 +128,6 @@ Static files are emitted to `dist/public`. The API is `dist/index.js`.
 
 The UI includes Aceternity‑style accents: gradient header stripe in the sidebar, glowing bot avatar, gradient typing indicator, and message shimmer. Icons use `lucide-react`.
 
-Note: Unused `react-icons` dependency has been removed.
 
 ## Next.js samples (optional)
 
