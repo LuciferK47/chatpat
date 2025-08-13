@@ -17,7 +17,7 @@ A full‑stack AI chatbot built with Express, Vite, React (TypeScript), Tailwind
 
 The app you should run is in `chatpat-main/`.
 
-## Run it like you’re 3 years old (super simple)
+## How to run
 
 - Step 1: Install Node.js 20+ from the official site.
 - Step 2: Open your terminal.
